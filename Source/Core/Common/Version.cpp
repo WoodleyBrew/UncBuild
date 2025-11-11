@@ -8,7 +8,7 @@
 
 namespace Common
 {
-#define VERSION_STR "Zubuild 1.6.0 (P+ v3.1.5)"
+#define VERSION_STR "Zubuild 1.6.0 (P+ 3.1.5)"
 #ifdef _DEBUG
 #define BUILD_TYPE_STR "Debug "
 #elif defined DEBUGFAST
