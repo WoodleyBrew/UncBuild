@@ -52,8 +52,8 @@ AboutDolphin::AboutDolphin(wxWindow* parent, wxWindowID id, const wxString& titl
   wxStaticText* const FirstSpacer = new wxStaticText(this, wxID_ANY, "  |  ");
   wxStaticText* const SecondSpacer = new wxStaticText(this, wxID_ANY, "  |  ");
   wxStaticText* const ThirdSpacer = new wxStaticText(this, wxID_ANY, "  |  ");
-  wxHyperlinkCtrl* const Download = new wxHyperlinkCtrl(this, wxID_ANY, "projectplusgame.com/download/",
-                                                        "https://projectplusgame.com/download/");
+  wxHyperlinkCtrl* const Download = new wxHyperlinkCtrl(this, wxID_ANY, "google.com",
+                                                        "https://google.com/");
   wxHyperlinkCtrl* const License =
       new wxHyperlinkCtrl(this, wxID_ANY, LicenseText,
                           "https://github.com/dolphin-emu/dolphin/blob/master/license.txt");
